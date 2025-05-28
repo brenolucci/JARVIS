@@ -20,6 +20,7 @@ engine = pyttsx3.init()
 def falar(texto):
     engine.say(texto)
     engine.runAndWait()
+    
 
 def gravar_audio(duracao=5, fs=16000):
     print("🎙️ Gravando...")
